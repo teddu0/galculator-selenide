@@ -5,7 +5,6 @@ import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selenide.$x;
-import static com.codeborne.selenide.Selenide.open;
 
 /**
  * Главная страница google.com
@@ -20,15 +19,6 @@ public class MainPage {
 	 * Кнопка 'Поиск'
 	 */
 	private final SelenideElement searchButton = $x("//div[@jsname='VlcLAe']//input[@class='gNO89b']");
-
-	/**
-	 * Открытие страницы 'google.com'
-	 */
-	@Step
-	public final MainPage openGooglePage(String url) {
-		open(url);
-		return new MainPage();
-	}
 
 	/**
 	 * Ввод текста 'Калькулятор' в поле поиска

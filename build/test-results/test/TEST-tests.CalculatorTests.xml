@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.CalculatorTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-28T16:04:21" hostname="LOFT" time="12.686">
+<testsuite name="tests.CalculatorTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-28T16:28:02" hostname="LOFT" time="7.409">
   <properties/>
-  <testcase name="CalculatingTest" classname="tests.CalculatorTests" time="12.686"/>
+  <testcase name="CalculatingTest" classname="tests.CalculatorTests" time="7.409"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 35399
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 25141
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 28, 2023 7:04:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jan 28, 2023 7:27:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: 108
 ]]></system-err>
 </testsuite>
